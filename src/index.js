@@ -17,7 +17,7 @@ const app = express();
 
 app.use(
 	cors({
-		origin: 'http://localhost:3000',
+		origin: 'https://f1-opef.onrender.com',
 		preflightContinue: true,
 		optionsSuccessStatus: 200,
 		credentials: true,
